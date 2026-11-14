@@ -314,8 +314,10 @@
   "tv": "/shows/{tmdb}"
  },
  "bingr.one": {
-  "movie": "/movie/{tmdb}",
-  "tv": "/tv/{tmdb}"
+  "movie": "/watch/movie/{tmdb}",
+  "tv": "/tv/{tmdb}",
+  "episode": "/watch/tv/{tmdb}/{season}/{episode}",
+  "anime": "/watch/anime/{anilist}/{episode}"
  },
  "cinetaro.to": {
   "movie": "/details/{tmdb}?type=movie",
